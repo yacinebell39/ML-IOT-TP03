@@ -1,0 +1,9 @@
+[wokwi]
+version = 1
+firmware = ".pio/build/uno/firmware.hex"
+elf = ".pio/build/uno/firmware.elf"
+
+[connections.phantomio]
+# Enable PhantomIO for serial and telemetry
+enabled = true
+port = "serial"
